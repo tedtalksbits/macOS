@@ -147,7 +147,7 @@ setInterval(() => {
    time.textContent = today;
 }, 1000);
 
-/************************** pagination **************************/
+/************************** pagination and build menus **************************/
 let currentIndex = 0;
 const about_window_body = document.getElementById("about_window_body");
 const tabs = document.querySelectorAll(".tab");
