@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <title>macOSMonterey</title>
+   </head>
+   <body>
+      <main>
+         <nav class="macos__menu-bar">
+            <div class="menu-bar-left">
+               <i
+                  class="fa fa-apple apple-logo"
+                  id="apple_logo"
+                  aria-hidden="true"
+               ></i>
+
+               <ul class="macos__menu-bar-links">
+                  <li><a href="">File</a></li>
+                  <li><a href="">Edit</a></li>
+                  <li><a href="">Selection</a></li>
+                  <li><a href="">View</a></li>
+                  <li><a href="">Go</a></li>
+                  <li><a href="">Run</a></li>
+                  <li><a href="">Terminal</a></li>
+                  <li><a href="">Window</a></li>
+               </ul>
+            </div>
+            <div class="menu-bar-right">
+               <ul class="macos__menu-bar-links">
+                  <li>
+                     <a href=""
+                        ><i
+                           class="fa fa-angle-double-left"
+                           aria-hidden="true"
+                        ></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href=""
+                        ><i class="fa fa-wifi" aria-hidden="true"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href=""
+                        ><i class="fa fa-battery-full" aria-hidden="true"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href=""
+                        ><i class="fa fa-user" aria-hidden="true"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href=""
+                        ><i class="fa fa-search" aria-hidden="true"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href=""
+                        ><i class="fa fa-linux" aria-hidden="true"></i
+                     ></a>
+                  </li>
+                  <li><a href="">Terminal</a></li>
+                  <li><div id="date"></div></li>
+                  <li><div id="time"></div></li>
+               </ul>
+            </div>
+         </nav>
+
+         <div id="apple_menu" class="menu">
+            <div class="menu-item" id="about_window_toggle">
+               <a href="#" class="menu-item-link"> about this mac </a>
+            </div>
+            <div class="menu-item">
+               <a href="#" class="menu-item-link" id="system_window_toggle">
+                  System preferences...
+               </a>
+               <a href="#" class="menu-item-link"> App store... </a>
+            </div>
+            <div class="menu-item">
+               <a href="#" class="menu-item-link"> recent items</a>
+            </div>
+            <div class="menu-item">
+               <a href="#" class="menu-item-link"> Log out </a>
+            </div>
+         </div>
+         <div class="center">
+            <div id="about_window" class="window animate__animated">
+               <div class="window-header" id="about_window_header">
+                  <div class="window-buttons">
+                     <div class="window-button close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button min">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button max">
+                        <i class="fa fa-expand" aria-hidden="true"></i>
+                     </div>
+                  </div>
+                  <div class="window-header-tabs">
+                     <div class="tab" data-index="0">Overview</div>
+                     <div class="tab" data-index="1">Displays</div>
+                     <div class="tab" data-index="2">Storage</div>
+                     <div class="tab" data-index="3">Support</div>
+                     <div class="tab" data-index="4">Resources</div>
+                  </div>
+               </div>
+               <div class="window-body">
+                  <div class="body-stackH" id="about_window_body">
+                   <!-- js generated content renders here -->
+                  <footer class="window-footer">
+                     &trade; &copy; 2022 100devs Inc. No rights Reserved. No
+                     Licence Agreement
+                  </footer>
+               </div>
+            </div>
+            <div id="system_window" class="window animate__animated">
+               <div class="window-header" id="system_window_header">
+                  <div class="window-buttons">
+                     <div class="window-button close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button min">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button max">
+                        <i class="fa fa-expand" aria-hidden="true"></i>
+                     </div>
+                  </div>
+                  <div>System Preference</div>
+               </div>
+               <div class="wallpapers">
+                  <span>Wallpapers</span>
+                  <div class="grid">
+                     <img
+                        src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1642548666500-7990b88e691f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1878&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1643635486856-819832539429?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1918&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1629946832022-c327f74956e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1629277152917-966a1f1705cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                     <img
+                        src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
+                        alt=""
+                        class="wallpaperImg"
+                     />
+                  </div>
+               </div>
+            </div>
+            <div id="dummy_window" class="window animate__animated">
+               <div class="window-header" id="window_header">
+                  <div class="window-buttons">
+                     <div class="window-button" id="close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button" id="min">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                     </div>
+                     <div class="window-button" id="max">
+                        <i class="fa fa-expand" aria-hidden="true"></i>
+                     </div>
+                  </div>
+                  <div class="window-header-tabs">Dummy Window</div>
+               </div>
+               <div class="window-body">
+                  <div class="body-stackV">
+                     <div class="img">
+                        <img
+                           src="https://images.unsplash.com/photo-1642590044683-d72bfab9eb35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                           alt="aurora"
+                        />
+                     </div>
+                     <div class="infotext">
+                        <h2>100devsOS <span>Monterey</span></h2>
+                        <small>Version 12.2.1</small>
+                        <span>Macbook Pro (15-inch, 2018)</span>
+                        <span
+                           >Processor &ensp;2.6 Ghz 6-core Intel Core i7</span
+                        >
+                        <span>Memory &ensp; 16 GB 2400 MHz DDR4</span>
+                        <span>Startup Disk &ensp; Macintosh HD</span>
+                        <span>Graphics &ensp; Radeon Pro 560X 4GB</span>
+                        <span>Serial Number &ensp; BLINK184</span>
+                        <div class="button-stackH">
+                           <button>System Report...</button>
+                           <button>Software Update...</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <footer id="dock" class="dock"></footer>
+      </main>
+      <script src="main.js"></script>
+   </body>
+</html>
