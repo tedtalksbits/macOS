@@ -4,16 +4,16 @@
 
 ## The Goal/Challenge 🥅
 
-Create a user experience similar to macOs Mojave using only html css and jaavascript! ⚠️
+Create a user experience similar to macOs Mojave using only HTML CSS and Javascript! ⚠️
 
-## Meet the dev:
+### Meet the dev:
 
 **Tedane Blake** ➡ [Find me on the web 🕸](https://tedtalksbits.github.io/tedaneblakedev/)
 
 -  college student
 -  ⚽️ enthusiast
 
-## Run Locally
+### Run Locally
 
 Clone the project
 
