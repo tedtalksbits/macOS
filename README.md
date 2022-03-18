@@ -22,4 +22,4 @@ Go to the project directory
 
 ## Screenshots
 
-![App Screenshot]('./images/screenshot.png')
+![App Screenshot]('https://tedtalksbits.github.io/tedaneblakedev/static/media/project5.9a175c36.gif')
