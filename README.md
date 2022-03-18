@@ -22,4 +22,4 @@ Go to the project directory
 
 ## Screenshots
 
-![App Screenshot]('./images/screenshot.png')
+![App Screenshot](/images/screenshot.png)
