@@ -1,10 +1,17 @@
 # Buiding the GUI of macOS Mojave Using only HTML, JS, CSS
 
-This is project is a fun project to dive deeper into Javascript dom APIs
+> PS: This project is a fun project to dive deeper into Javascript DOM APIs.
 
-## Tedane Blake
+## The Goal/Challenge 🥅
 
--  [Website](https://tedtalksbits.github.io/tedaneblakedev/)
+Create a user experience similar to macOs Mojave using only html css and jaavascript! ⚠️
+
+## Meet the dev:
+
+**Tedane Blake** ➡ [Find me on the web 🕸](https://tedtalksbits.github.io/tedaneblakedev/)
+
+-  college student
+-  ⚽️ enthusiast
 
 ## Run Locally
 
@@ -22,4 +29,4 @@ Go to the project directory
 
 ## Screenshots
 
-![App Screenshot](/images/screenshot.png)
+![App Screenshot](https://tedtalksbits.github.io/tedaneblakedev/static/media/project5.9a175c36.gif)
