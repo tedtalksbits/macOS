@@ -10,9 +10,6 @@ Create a user experience similar to macOs Mojave using only HTML CSS and Javascr
 
 **Tedane Blake** ➡ [Find me on the web 🕸](https://tedtalksbits.github.io/tedaneblakedev/)
 
--  college student
--  ⚽️ enthusiast
-
 ### Run Locally
 
 Clone the project
