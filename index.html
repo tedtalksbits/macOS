@@ -1,285 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="styles.css" />
-      <link
-         rel="stylesheet"
-         href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-         crossorigin="anonymous"
-      />
-      <link
-         rel="stylesheet"
-         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-      <title>macOSMonterey</title>
-   </head>
-   <body>
-      <main>
-         <nav class="macos__menu-bar">
-            <div class="menu-bar-left">
-               <i
-                  class="fa fa-apple apple-logo"
-                  id="apple_logo"
-                  aria-hidden="true"
-               ></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>macOSMonterey</title>
+  </head>
+  <body>
+    <main>
+      <nav class="macos__menu-bar">
+        <div class="menu-bar-left">
+          <i
+            class="fa fa-apple apple-logo"
+            id="apple_logo"
+            aria-hidden="true"
+          ></i>
 
-               <ul class="macos__menu-bar-links">
-                  <li><a href="" class="t-shadow">File</a></li>
-                  <li><a href="" class="t-shadow">Edit</a></li>
-                  <li><a href="" class="t-shadow">Selection</a></li>
-                  <li><a href="" class="t-shadow">View</a></li>
-                  <li><a href="" class="t-shadow">Go</a></li>
-                  <li><a href="" class="t-shadow">Run</a></li>
-                  <li><a href="" class="t-shadow">Terminal</a></li>
-                  <li><a href="" class="t-shadow">Window</a></li>
-               </ul>
-            </div>
-            <div class="menu-bar-right">
-               <ul class="macos__menu-bar-links">
-                  <li>
-                     <a href=""
-                        ><i
-                           class="fa fa-angle-double-left"
-                           aria-hidden="true"
-                        ></i
-                     ></a>
-                  </li>
-                  <li>
-                     <a href=""
-                        ><i class="fa fa-wifi" aria-hidden="true"></i
-                     ></a>
-                  </li>
-                  <li>
-                     <a href=""
-                        ><i class="fa fa-battery-full" aria-hidden="true"></i
-                     ></a>
-                  </li>
-                  <li>
-                     <a href=""
-                        ><i class="fa fa-user" aria-hidden="true"></i
-                     ></a>
-                  </li>
-                  <li>
-                     <a href=""
-                        ><i class="fa fa-search" aria-hidden="true"></i
-                     ></a>
-                  </li>
-                  <li>
-                     <a href=""
-                        ><i class="fa fa-linux" aria-hidden="true"></i
-                     ></a>
-                  </li>
-                  <li><a href="">Terminal</a></li>
-                  <li><div id="date"></div></li>
-                  <li><div id="time"></div></li>
-               </ul>
-            </div>
-         </nav>
+          <ul class="macos__menu-bar-links">
+            <li><a href="" class="t-shadow">File</a></li>
+            <li><a href="" class="t-shadow">Edit</a></li>
+            <li><a href="" class="t-shadow">Selection</a></li>
+            <li><a href="" class="t-shadow">View</a></li>
+            <li><a href="" class="t-shadow">Go</a></li>
+            <li><a href="" class="t-shadow">Run</a></li>
+            <li><a href="" class="t-shadow">Terminal</a></li>
+            <li><a href="" class="t-shadow">Window</a></li>
+          </ul>
+        </div>
+        <div class="menu-bar-right">
+          <ul class="macos__menu-bar-links">
+            <li>
+              <a href=""
+                ><i class="fa fa-angle-double-left" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-wifi" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa fa-battery-full" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linux" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="">Terminal</a></li>
+            <li><div id="date"></div></li>
+            <li><div id="time"></div></li>
+          </ul>
+        </div>
+      </nav>
 
-         <div id="apple_menu" class="menu">
-            <div class="menu-item" id="about_window_toggle">
-               <a href="#" class="menu-item-link t-shadow"> about this mac </a>
+      <div id="apple_menu" class="menu">
+        <div class="menu-item" id="about_window_toggle">
+          <a href="#" class="menu-item-link t-shadow"> about this mac </a>
+        </div>
+        <div class="menu-item">
+          <a href="#" class="menu-item-link t-shadow" id="system_window_toggle">
+            System preferences...
+          </a>
+          <a
+            href="#"
+            class="menu-item-link t-shadow"
+            id="appstore_window_toggle"
+          >
+            App store...
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="#" class="menu-item-link t-shadow"> recent items</a>
+        </div>
+        <div class="menu-item">
+          <a href="#" class="menu-item-link t-shadow"> Log out </a>
+        </div>
+        <div class="menu-item">
+          <a
+            href="https://tedtalksbits.github.io/tedaneblakedev/"
+            class="menu-item-link t-shadow"
+          >
+            Hire Tedane?
+          </a>
+        </div>
+      </div>
+      <div class="center">
+        <!-- about window -->
+        <div id="about_window" class="window animate__animated">
+          <div class="window-header" id="about_window_header">
+            <div class="window-buttons">
+              <div class="window-button close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+              <div class="window-button min">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </div>
+              <div class="window-button disabled">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+              </div>
             </div>
-            <div class="menu-item">
-               <a
-                  href="#"
-                  class="menu-item-link t-shadow"
-                  id="system_window_toggle"
-               >
-                  System preferences...
-               </a>
-               <a
-                  href="#"
-                  class="menu-item-link t-shadow"
-                  id="appstore_window_toggle"
-               >
-                  App store...
-               </a>
+            <div class="window-header-tabs">
+              <div class="tab" data-index="0">Overview</div>
+              <div class="tab" data-index="1">Displays</div>
+              <div class="tab" data-index="2">Storage</div>
+              <div class="tab" data-index="3">Support</div>
+              <div class="tab" data-index="4">Resources</div>
             </div>
-            <div class="menu-item">
-               <a href="#" class="menu-item-link t-shadow"> recent items</a>
+          </div>
+          <div class="window-body">
+            <div class="body-stackH" id="about_window_body">
+              <!-- js generated content renders here -->
+              <footer class="window-footer">
+                &trade; &copy; 2022 100devs Inc. No rights Reserved. No Licence
+                Agreement
+              </footer>
             </div>
-            <div class="menu-item">
-               <a href="#" class="menu-item-link t-shadow"> Log out </a>
+          </div>
+        </div>
+        <!-- about window -->
+        <!-- system window -->
+        <div id="system_window" class="window animate__animated">
+          <div class="window-header" id="system_window_header">
+            <div class="window-buttons">
+              <div class="window-button close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+              <div class="window-button min">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </div>
+              <div class="window-button max">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+              </div>
             </div>
-            <div class="menu-item">
-               <a
-                  href="https://tedtalksbits.github.io/tedaneblakedev/"
-                  class="menu-item-link t-shadow"
-               >
-                  Hire Tedane?
-               </a>
+            <div>System Preference</div>
+          </div>
+          <div class="wallpapers">
+            <span>Wallpapers</span>
+            <div class="grid" id="wallpaper_imgs">
+              <!-- wallpaper images generate here -->
             </div>
-         </div>
-         <div class="center">
-            <!-- about window -->
-            <div id="about_window" class="window animate__animated">
-               <div class="window-header" id="about_window_header">
-                  <div class="window-buttons">
-                     <div class="window-button close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button min">
-                        <i class="fa fa-minus" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button disabled">
-                        <i class="fa fa-expand" aria-hidden="true"></i>
-                     </div>
-                  </div>
-                  <div class="window-header-tabs">
-                     <div class="tab" data-index="0">Overview</div>
-                     <div class="tab" data-index="1">Displays</div>
-                     <div class="tab" data-index="2">Storage</div>
-                     <div class="tab" data-index="3">Support</div>
-                     <div class="tab" data-index="4">Resources</div>
-                  </div>
-               </div>
-               <div class="window-body">
-                  <div class="body-stackH" id="about_window_body">
-                     <!-- js generated content renders here -->
-                     <footer class="window-footer">
-                        &trade; &copy; 2022 100devs Inc. No rights Reserved. No
-                        Licence Agreement
-                     </footer>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <!-- system window -->
+        <!-- app store -->
+        <div
+          class="app-window window app-store animate__animated"
+          id="appstore_window"
+        >
+          <div class="window-header" id="appstore_window_header">
+            <div class="window-buttons">
+              <div class="window-button close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+              <div class="window-button min">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </div>
+              <div class="window-button max">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+              </div>
             </div>
-            <!-- about window -->
-            <!-- system window -->
-            <div id="system_window" class="window animate__animated">
-               <div class="window-header" id="system_window_header">
-                  <div class="window-buttons">
-                     <div class="window-button close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button min">
-                        <i class="fa fa-minus" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button max">
-                        <i class="fa fa-expand" aria-hidden="true"></i>
-                     </div>
-                  </div>
-                  <div>System Preference</div>
-               </div>
-               <div class="wallpapers">
-                  <span>Wallpapers</span>
-                  <div class="grid" id="wallpaper_imgs">
-                     <!-- wallpaper images generate here -->
-                  </div>
-               </div>
+            <div class="title">App Store</div>
+          </div>
+          <!-- appstore container -->
+          <div class="appstore-container">
+            <!-- left panel -->
+            <div class="left-panel">
+              <div class="panel-item flex-h">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                Discover
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                Arcade
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-paint-brush"></i> Create
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-paper-plane"></i> Work
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-rocket"></i> Play
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-toolbox"></i>Develop
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-th-large"></i>Categories
+              </div>
+              <div class="panel-item flex-h">
+                <i class="fas fa-download"></i>Updates
+              </div>
             </div>
-            <!-- system window -->
-            <!-- app store -->
-            <div
-               class="app-window window app-store animate__animated"
-               id="appstore_window"
-            >
-               <div class="window-header" id="appstore_window_header">
-                  <div class="window-buttons">
-                     <div class="window-button close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button min">
-                        <i class="fa fa-minus" aria-hidden="true"></i>
-                     </div>
-                     <div class="window-button max">
-                        <i class="fa fa-expand" aria-hidden="true"></i>
-                     </div>
+            <!-- left panel -->
+            <!-- right panel -->
+            <div class="right-panel">
+              <div class="appstore-card img-card my-l">
+                <small>LEARN SOMETHING NEW</small>
+                <h3>Dive Into The Metaverse</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores ex asperiores molestiae!
+                </p>
+              </div>
+              <div class="flex-h g-xxl my-l">
+                <div class="appstore-card flex-h">
+                  <div class="text">
+                    <small>PRO TIP</small>
+                    <h3>Make Slack Manageable</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores ex asperiores molestiae!
+                    </p>
                   </div>
-                  <div class="title">App Store</div>
-               </div>
-               <!-- appstore container -->
-               <div class="appstore-container">
-                  <!-- left panel -->
-                  <div class="left-panel">
-                     <div class="panel-item flex-h">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        Discover
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fa fa-gamepad" aria-hidden="true"></i>
-                        Arcade
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-paint-brush"></i> Create
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-paper-plane"></i> Work
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-rocket"></i> Play
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-toolbox"></i>Develop
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-th-large"></i>Categories
-                     </div>
-                     <div class="panel-item flex-h">
-                        <i class="fas fa-download"></i>Updates
-                     </div>
+                  <img
+                    class="rounded m"
+                    src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="appstore-card flex-h">
+                  <div class="text">
+                    <small>GET IT DONE</small>
+                    <h3>Tidy Up Your Mac</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores ex asperiores molestiae!
+                    </p>
                   </div>
-                  <!-- left panel -->
-                  <!-- right panel -->
-                  <div class="right-panel">
-                     <div class="appstore-card img-card my-l">
-                        <small>LEARN SOMETHING NEW</small>
-                        <h3>Dive Into The Metaverse</h3>
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Maiores ex asperiores molestiae!
-                        </p>
-                     </div>
-                     <div class="flex-h g-xxl my-l">
-                        <div class="appstore-card flex-h">
-                           <div class="text">
-                              <small>PRO TIP</small>
-                              <h3>Make Slack Manageable</h3>
-                              <p>
-                                 Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Maiores ex asperiores
-                                 molestiae!
-                              </p>
-                           </div>
-                           <img
-                              class="rounded m"
-                              src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
-                              alt=""
-                           />
-                        </div>
-                        <div class="appstore-card flex-h">
-                           <div class="text">
-                              <small>GET IT DONE</small>
-                              <h3>Tidy Up Your Mac</h3>
-                              <p>
-                                 Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Maiores ex asperiores
-                                 molestiae!
-                              </p>
-                           </div>
-                           <img
-                              src="https://images.unsplash.com/photo-1629948618343-0d33f97a3091?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
-                              alt=""
-                              class="rounded m"
-                           />
-                        </div>
-                     </div>
-                  </div>
-                  <!-- right panner -->
-               </div>
-               <!-- appstore container -->
+                  <img
+                    src="https://images.unsplash.com/photo-1629948618343-0d33f97a3091?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                    alt=""
+                    class="rounded m"
+                  />
+                </div>
+              </div>
             </div>
-         </div>
-         <footer id="dock" class="dock"></footer>
-      </main>
-      <script src="main.js"></script>
-   </body>
+            <!-- right panner -->
+          </div>
+          <!-- appstore container -->
+        </div>
+      </div>
+      <footer id="dock" class="dock"></footer>
+    </main>
+    <script src="./js/main.js" type="module"></script>
+  </body>
 </html>
