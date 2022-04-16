@@ -1,5 +1,7 @@
+import { closeAppleMenu } from "../main.js";
+
 // make window draggable function
-export function dragEl(el, draggableHeader) {
+export function dragEl(el, draggableHeader, closeOnDrag) {
   let pos1 = 0;
   let pos2 = 0;
   let pos3 = 0;
@@ -19,6 +21,8 @@ export function dragEl(el, draggableHeader) {
     document.onmousemove = elementDrag;
   }
   function elementDrag(e) {
+    //   close apple menu when dragging
+    closeAppleMenu();
     // if window is maximized, disable drag event
     if (el.classList.contains("max")) {
       return;

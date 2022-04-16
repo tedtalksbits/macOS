@@ -17,7 +17,7 @@ apple_logo.addEventListener("click", showAppleMenu);
 function showAppleMenu() {
   apple_menu.classList.toggle("show");
 }
-function closeAppleMenu() {
+export function closeAppleMenu() {
   removeClass("show", apple_menu);
 }
 
